@@ -43,6 +43,6 @@ router.put("/api/workout/:id", (req, res) => {
     .catch(err => {
       res.status(400).json(err);
     });
-});
+});c
 
 module.exports = router;
